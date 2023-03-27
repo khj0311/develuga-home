@@ -1,0 +1,13 @@
+/* Module - Navigation */
+$component: 'dvg-sticky-navigation';
+
+.#{$component} {
+    position: fixed;
+    width: 100%;
+    max-width: 1920px;
+    height: 80px;
+    background-color: rgb(235, 233, 163);
+    top: 0;
+    left: 0;
+    z-index: 100;
+}

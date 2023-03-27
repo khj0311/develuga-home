@@ -1,17 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+
+// Commmon Style
+import './common/css/reset.css';
+import './common/css/develuga.scss';
+import './index.scss';
+
+// Component Style
+import './components/navigation/index.scss';
+import './components/visual/index.scss';
+import './components/cards/index.scss';
+import './components/contact/index.scss';
+
+// Common Javascript
+import './common/js/develuga.common.initialize';
+import './common/js/develuga.common.smoothScroll';
+
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// ========================================
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
