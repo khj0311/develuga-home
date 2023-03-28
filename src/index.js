@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 // Commmon Style
 import './common/css/reset.css';
 import './common/css/develuga.scss';
+import './App.css';
 import './index.scss';
 
 // Component Style

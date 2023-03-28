@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Jamsil_Thin";
+    src: url("./common/fonts/jamsil-thin.ttf");
+}
+@font-face {
+    font-family: "Jamsil_Regular";
+    src: url("./common/fonts/jamsil-regular.ttf");
+}
+@font-face {
+    font-family: "Jamsil_Bold";
+    src: url("./common/fonts/jamsil-bold.ttf");
+}
+@font-face {
+    font-family: "Line_Thin";
+    src: url("./common/fonts/line-thin.ttf");
+}
+@font-face {
+    font-family: "Line_Regular";
+    src: url("./common/fonts/line-regular.ttf");
+}
+@font-face {
+    font-family: "Line_Bold";
+    src: url("./common/fonts/line-bold.ttf");
+}
+@font-face {
+    font-family: "Suit_Thin";
+    src: url("./common/fonts/suit-thin.ttf");
+}
+@font-face {
+    font-family: "Suit_Regular";
+    src: url("./common/fonts/suit-regular.ttf");
+}
+@font-face {
+    font-family: "Suit_Bold";
+    src: url("./common/fonts/suit-bold.ttf");
+}
