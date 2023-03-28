@@ -10,7 +10,8 @@ import './index.scss';
 import './components/navigation/index.scss';
 import './components/visual/index.scss';
 import './components/cards/index.scss';
-import './components/contact/index.scss';
+import './components/grid/index.scss';
+// import './components/contact/index.scss';
 
 // Common Javascript
 import './common/js/develuga.common.initialize';

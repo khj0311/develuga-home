@@ -5,3 +5,11 @@
     color: #000;
     height: 15000px;
 }
+
+/* Module - Contents */
+$component: 'develuga';
+
+.#{$component} {
+    display: flex;
+    flex-direction: column;
+}
