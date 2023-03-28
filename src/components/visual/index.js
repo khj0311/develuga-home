@@ -17,7 +17,8 @@ class Visual extends React.Component {
                             slidesPerView={3}
                             navigation
                             pagination={{ clickable: true }}
-                            loop={true}>
+                            loop={true}
+                            centeredSlides={true}>
                             <SwiperSlide className='dvg-visual__swiper-slide'>
                                 <figure>
                                     <picture>
