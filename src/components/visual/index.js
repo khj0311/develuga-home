@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navigation, Pagination } from 'swiper';
+import {Navigation, Pagination} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
 
 import 'swiper/css';
@@ -12,101 +12,125 @@ class Visual extends React.Component {
             <section id='develuga-visual' className='dvg-visual'>
                 <div className='dvg-visual__wrap'>
                     <div className='dvg-visual__container'>
-                        <Swiper className='dvg-visual__swiper'
+                        <Swiper
+                            className='dvg-visual__swiper'
                             modules={[Navigation, Pagination]}
                             slidesPerView={3}
                             navigation
-                            pagination={{ clickable: true }}
+                            pagination={{
+                            clickable: true
+                        }}
                             loop={true}
                             centeredSlides={true}>
                             <SwiperSlide className='dvg-visual__swiper-slide'>
                                 <figure>
-                                    <picture>
-                                        <source media='(min-width:1024px)' srcSet='/images/visual/visual-galaxy-s23-ultra.jpg'></source>
-                                        <source media='(min-width:768px)' srcSet='/images/visual/visual-galaxy-s23-ultra-m.jpg'></source>
-                                        <source media='(max-width:767px)' srcSet='/images/visual/visual-galaxy-s23-ultra-s.jpg'></source>
-                                        <img src='/images/visual/visual-galaxy-s23-ultra.jpg' alt=''></img>
-                                    </picture>
+                                    <img
+                                        className='js-img-res js-img-lazy'
+                                        alt=''
+                                        // src='/images/visual/visual-galaxy-s23-ultra-pc.jpg'
+                                        src='/images/common/blank.gif'
+                                        data-img-src-pc='/images/visual/visual-galaxy-s23-ultra-pc.jpg'
+                                        data-img-src-tb='/images/visual/visual-galaxy-s23-ultra-tb.jpg'
+                                        data-img-src-mo='/images/visual/visual-galaxy-s23-ultra-mo.jpg'></img>
                                 </figure>
                             </SwiperSlide>
                             <SwiperSlide className='dvg-visual__swiper-slide'>
                                 <figure>
-                                    <picture>
-                                        <source media='(min-width:1024px)' srcSet='/images/visual/visual-galaxy-s23.jpg'></source>
-                                        <source media='(min-width:768px)' srcSet='/images/visual/visual-galaxy-s23-m.jpg'></source>
-                                        <source media='(max-width:767px)' srcSet='/images/visual/visual-galaxy-s23-s.jpg'></source>
-                                        <img src='/images/visual/visual-galaxy-s23.jpg' alt=''></img>
-                                    </picture>
+                                    <img
+                                        className='js-img-res js-img-lazy'
+                                        alt=''
+                                        src='/images/visual/visual-galaxy-s23-pc.jpg'
+                                        data-img-src-pc='/images/visual/visual-galaxy-s23-pc.jpg'
+                                        data-img-src-tb='/images/visual/visual-galaxy-s23-tb.jpg'
+                                        data-img-src-mo='/images/visual/visual-galaxy-s23-mo.jpg'></img>
                                 </figure>
                             </SwiperSlide>
                             <SwiperSlide className='dvg-visual__swiper-slide'>
                                 <figure>
-                                    <picture>
-                                        <source media='(min-width:1024px)' srcSet='/images/visual/visual-galaxy-watch5.jpg'></source>
-                                        <source media='(min-width:768px)' srcSet='/images/visual/visual-galaxy-watch5-m.jpg'></source>
-                                        <source media='(max-width:767px)' srcSet='/images/visual/visual-galaxy-watch5-s.jpg'></source>
-                                        <img src='/images/visual/visual-galaxy-watch5.jpg' alt=''></img>
-                                    </picture>
+                                    <img
+                                        className='js-img-res js-img-lazy'
+                                        alt=''
+                                        src='/images/visual/visual-galaxy-watch5-pc.jpg'
+                                        data-img-src-pc='/images/visual/visual-galaxy-watch5-pc.jpg'
+                                        data-img-src-tb='/images/visual/visual-galaxy-watch5-tb.jpg'
+                                        data-img-src-mo='/images/visual/visual-galaxy-watch5-mo.jpg'></img>
                                 </figure>
                             </SwiperSlide>
                             <SwiperSlide className='dvg-visual__swiper-slide'>
                                 <figure>
-                                    <picture>
-                                        <source media='(min-width:1024px)' srcSet='/images/visual/visual-galaxy-buds2-pro.jpg'></source>
-                                        <source media='(min-width:768px)' srcSet='/images/visual/visual-galaxy-buds2-pro-m.jpg'></source>
-                                        <source media='(max-width:767px)' srcSet='/images/visual/visual-galaxy-buds2-pro-s.jpg'></source>
-                                        <img src='/images/visual/visual-galaxy-buds2-pro.jpg' alt=''></img>
-                                    </picture>
+                                    <img
+                                        className='js-img-res js-img-lazy'
+                                        alt=''
+                                        src='/images/visual/visual-galaxy-watch5-pro-pc.jpg'
+                                        data-img-src-pc='/images/visual/visual-galaxy-watch5-pro-pc.jpg'
+                                        data-img-src-tb='/images/visual/visual-galaxy-watch5-pro-tb.jpg'
+                                        data-img-src-mo='/images/visual/visual-galaxy-watch5-pro-mo.jpg'></img>
                                 </figure>
                             </SwiperSlide>
                             <SwiperSlide className='dvg-visual__swiper-slide'>
                                 <figure>
-                                    <picture>
-                                        <source media='(min-width:1024px)' srcSet='/images/visual/visual-galaxy-tab-s8.jpg'></source>
-                                        <source media='(min-width:768px)' srcSet='/images/visual/visual-galaxy-tab-s8-m.jpg'></source>
-                                        <source media='(max-width:767px)' srcSet='/images/visual/visual-galaxy-tab-s8-s.jpg'></source>
-                                        <img src='/images/visual/visual-galaxy-tab-s8.jpg' alt=''></img>
-                                    </picture>
+                                    <img
+                                        className='js-img-res js-img-lazy'
+                                        alt=''
+                                        src='/images/visual/visual-galaxy-buds2-pro-pc.jpg'
+                                        data-img-src-pc='/images/visual/visual-galaxy-buds2-pro-pc.jpg'
+                                        data-img-src-tb='/images/visual/visual-galaxy-buds2-pro-tb.jpg'
+                                        data-img-src-mo='/images/visual/visual-galaxy-buds2-pro-mo.jpg'></img>
                                 </figure>
                             </SwiperSlide>
                             <SwiperSlide className='dvg-visual__swiper-slide'>
                                 <figure>
-                                    <picture>
-                                        <source media='(min-width:1024px)' srcSet='/images/visual/visual-galaxy-watch4.jpg'></source>
-                                        <source media='(min-width:768px)' srcSet='/images/visual/visual-galaxy-watch4-m.jpg'></source>
-                                        <source media='(max-width:767px)' srcSet='/images/visual/visual-galaxy-watch4-s.jpg'></source>
-                                        <img src='/images/visual/visual-galaxy-watch4.jpg' alt=''></img>
-                                    </picture>
+                                    <img
+                                        className='js-img-res js-img-lazy'
+                                        alt=''
+                                        src='/images/visual/visual-galaxy-tab-s8-pc.jpg'
+                                        data-img-src-pc='/images/visual/visual-galaxy-tab-s8-pc.jpg'
+                                        data-img-src-tb='/images/visual/visual-galaxy-tab-s8-tb.jpg'
+                                        data-img-src-mo='/images/visual/visual-galaxy-tab-s8-mo.jpg'></img>
                                 </figure>
                             </SwiperSlide>
                             <SwiperSlide className='dvg-visual__swiper-slide'>
                                 <figure>
-                                    <picture>
-                                        <source media='(min-width:1024px)' srcSet='/images/visual/visual-galaxy-watch4-classic.jpg'></source>
-                                        <source media='(min-width:768px)' srcSet='/images/visual/visual-galaxy-watch4-classic-m.jpg'></source>
-                                        <source media='(max-width:767px)' srcSet='/images/visual/visual-galaxy-watch4-classic-s.jpg'></source>
-                                        <img src='/images/visual/visual-galaxy-watch4-classic.jpg' alt=''></img>
-                                    </picture>
+                                    <img
+                                        className='js-img-res js-img-lazy'
+                                        alt=''
+                                        src='/images/visual/visual-galaxy-watch4-pc.jpg'
+                                        data-img-src-pc='/images/visual/visual-galaxy-watch4-pc.jpg'
+                                        data-img-src-tb='/images/visual/visual-galaxy-watch4-tb.jpg'
+                                        data-img-src-mo='/images/visual/visual-galaxy-watch4-mo.jpg'></img>
                                 </figure>
                             </SwiperSlide>
                             <SwiperSlide className='dvg-visual__swiper-slide'>
                                 <figure>
-                                    <picture>
-                                        <source media='(min-width:1024px)' srcSet='/images/visual/visual-galaxy-buds2.jpg'></source>
-                                        <source media='(min-width:768px)' srcSet='/images/visual/visual-galaxy-buds2-m.jpg'></source>
-                                        <source media='(max-width:767px)' srcSet='/images/visual/visual-galaxy-buds2-s.jpg'></source>
-                                        <img src='/images/visual/visual-galaxy-buds2.jpg' alt=''></img>
-                                    </picture>
+                                    <img
+                                        className='js-img-res js-img-lazy'
+                                        alt=''
+                                        src='/images/visual/visual-galaxy-watch4-classic-pc.jpg'
+                                        data-img-src-pc='/images/visual/visual-galaxy-watch4-classic-pc.jpg'
+                                        data-img-src-tb='/images/visual/visual-galaxy-watch4-classic-tb.jpg'
+                                        data-img-src-mo='/images/visual/visual-galaxy-watch4-classic-mo.jpg'></img>
                                 </figure>
                             </SwiperSlide>
                             <SwiperSlide className='dvg-visual__swiper-slide'>
                                 <figure>
-                                    <picture>
-                                        <source media='(min-width:1024px)' srcSet='/images/visual/visual-galaxy-buds-pro.jpg'></source>
-                                        <source media='(min-width:768px)' srcSet='/images/visual/visual-galaxy-buds-pro-m.jpg'></source>
-                                        <source media='(max-width:767px)' srcSet='/images/visual/visual-galaxy-buds-pro-s.jpg'></source>
-                                        <img src='/images/visual/visual-galaxy-buds-pro.jpg' alt=''></img>
-                                    </picture>
+                                    <img
+                                        className='js-img-res js-img-lazy'
+                                        alt=''
+                                        src='/images/visual/visual-galaxy-buds2-pc.jpg'
+                                        data-img-src-pc='/images/visual/visual-galaxy-buds2-pc.jpg'
+                                        data-img-src-tb='/images/visual/visual-galaxy-buds2-tb.jpg'
+                                        data-img-src-mo='/images/visual/visual-galaxy-buds2-mo.jpg'></img>
+                                </figure>
+                            </SwiperSlide>
+                            <SwiperSlide className='dvg-visual__swiper-slide'>
+                                <figure>
+                                    <img
+                                        className='js-img-res js-img-lazy'
+                                        alt=''
+                                        src='/images/visual/visual-galaxy-buds-pro-pc.jpg'
+                                        data-img-src-pc='/images/visual/visual-galaxy-buds-pro-pc.jpg'
+                                        data-img-src-tb='/images/visual/visual-galaxy-buds-pro-tb.jpg'
+                                        data-img-src-mo='/images/visual/visual-galaxy-buds-pro-mo.jpg'></img>
                                 </figure>
                             </SwiperSlide>
                         </Swiper>
