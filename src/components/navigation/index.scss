@@ -1,0 +1,30 @@
+/* Module - Navigation */
+$component: 'dvg-navi';
+
+.#{$component} {
+    position: fixed;
+    width: 100%;
+    max-width: 1920px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    &__wrap {
+        position: relative;
+        height: 100%;
+    }
+
+    &__dimmed {
+        background-color: rgb(235, 233, 163);
+        opacity: 0.2;
+        height: 100%;
+        backdrop-filter: saturate(180%) blur(20px);
+    }
+
+    &__container {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
